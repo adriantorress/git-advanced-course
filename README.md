@@ -1,6 +1,6 @@
 # Photo portfolio
 
-> A course to study git
+> A simple project to learn advanced git
 
 Big Picture by HTML5 UP
 html5up.net | @ajlkn
