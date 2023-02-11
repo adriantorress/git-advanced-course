@@ -21,3 +21,8 @@ USE MERGE
 ## VSCode tips
 
 > Ctrl + Shift + P (Algumas coisas para o git no vscode: git history log, remote, branch... com isso, e mais o Controle do Código-Fonte (Ctrl + Shift + G), da pra utilizar o git diretamente no vscode, fora da linha de comando) 
+
+## Git commands
+**git branch --set-upstream-to=origin/<branch> <branch-atual>**
+
+> Seta uma branch para a qual sua branch atual vai ficar trackeando mudanças, como se fosse a branch do qual ela foi originada
