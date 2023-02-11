@@ -25,7 +25,12 @@ USE MERGE
 > Git blame: extensão que mostra o último commit de cada linha e o autor que o fez
 
 
+
 ## Git commands
 **git branch --set-upstream-to=origin/<branch> <branch-atual>**
 
 > Seta uma branch para a qual sua branch atual vai ficar trackeando mudanças, como se fosse a branch do qual ela foi originada
+
+## Git tips
+
+> Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit que a reversão do commit desejado, mas não mexe no histórico
