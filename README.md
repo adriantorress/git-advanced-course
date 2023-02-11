@@ -20,7 +20,10 @@ USE MERGE
 
 ## VSCode tips
 
-> Ctrl + Shift + P (Algumas coisas para o git no vscode: git history log, remote, branch... com isso, e mais o Controle do Código-Fonte (Ctrl + Shift + G), da pra utilizar o git diretamente no vscode, fora da linha de comando) 
+> Ctrl + Shift + P (Algumas coisas para o git no vscode: git history log, remote, branch... com isso, e mais o Controle do Código-Fonte (Ctrl + Shift + G), da pra utilizar o git diretamente no vscode, fora da linha de comando)
+
+> Git blame: extensão que mostra o último commit de cada linha e o autor que o fez
+
 
 ## Git commands
 **git branch --set-upstream-to=origin/<branch> <branch-atual>**
