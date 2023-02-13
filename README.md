@@ -33,4 +33,6 @@ USE MERGE
 
 ## Git tips
 
-> Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit que a reversão do commit desejado, mas não mexe no histórico
+> Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
+
+> Ou seja: git revert serve para o master e o git reset é bom para outras branches
