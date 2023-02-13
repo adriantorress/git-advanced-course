@@ -39,6 +39,10 @@ USE MERGE
 
 > Pega um commit especifico de uma outra branch para a atual sem precisar fazer merge ou rebase
 
+**git add -p**
+
+> Permite escolher o que, dentro de um arquivo, colocar ou não em staged 
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
