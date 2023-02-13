@@ -31,6 +31,10 @@ USE MERGE
 
 > Seta uma branch para a qual sua branch atual vai ficar trackeando mudanças, como se fosse a branch do qual ela foi originada
 
+**git commit --amend**
+
+> Permite editar um commit já feito antes de subir para o Github
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
