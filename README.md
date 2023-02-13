@@ -35,6 +35,10 @@ USE MERGE
 
 > Permite editar um commit já feito antes de subir para o Github
 
+**git cherry-pick (*chave*)**
+
+> Pega um commit especifico de uma outra branch para a atual sem precisar fazer merge ou rebase
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
