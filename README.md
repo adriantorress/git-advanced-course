@@ -43,6 +43,10 @@ USE MERGE
 
 > Permite escolher o que, dentro de um arquivo, colocar ou não em staged 
 
+**git rebase -i HEAD~(número de commits a serem alterados)**
+
+> Com o git rebase da para fazer também junções de commits, com o **squash**, e alterar também a mensagem após a junção, (o commit anterior foi a junção de 3 commits) 
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
