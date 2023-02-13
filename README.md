@@ -45,7 +45,7 @@ USE MERGE
 
 **git rebase -i HEAD~(número de commits a serem alterados)**
 
-> Com o git rebase da para fazer também junções de commits, com o **squash**, e alterar também a mensagem após a junção, (o commit anterior foi a junção de 3 commits) 
+> Com o git rebase da para fazer também junções de commits, com o **squash**, e alterar também a mensagem após a junção 
 
 ## Git tips
 
