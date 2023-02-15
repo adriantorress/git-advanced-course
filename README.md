@@ -47,6 +47,14 @@ USE MERGE
 
 > Com o git rebase da para fazer também junções de commits, com o **squash**, e alterar também a mensagem após a junção 
 
+**git commit --fixup (*chave*)**
+
+> Fixa um erro de algum commit anterior
+
+**git rebase -i --autosquash (*chave*)**
+
+> Junta todos os commits que estão fixup, com o autosquash, com o commit subsequente a chave passada
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
