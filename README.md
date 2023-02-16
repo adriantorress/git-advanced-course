@@ -74,6 +74,11 @@ USE MERGE
 >--graph, mostra de forma gráfica uma linha do tempo com o histórico de commits. 
 >--all, mostra todas as branchs no log e não só a atual.
 
+**git log --since='Month dd yyyy'**
+
+> Mostra todos os commits desde certa data
+
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
