@@ -82,6 +82,9 @@ USE MERGE
 
 > Mostra todos os commits até certa data. Pode ser usado junto com o since
 
+**git log --author=(*'author_name'*)**
+
+> Mostra todos os commits feitos por determinado autor.
 
 ## Git tips
 
