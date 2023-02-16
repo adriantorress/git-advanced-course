@@ -86,6 +86,10 @@ USE MERGE
 
 > Mostra todos os commits feitos por determinado autor.
 
+**git shortlog -sn**
+
+> Mostra todos os commits de forma resumida. com o -sn mostra somente o autor e o numero de commits
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
