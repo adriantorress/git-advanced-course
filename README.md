@@ -65,6 +65,8 @@ USE MERGE
 
 **git archive (master // branch) --format=(zip//formato) --output=(master.zip // Nome do arquivo)**
 
+> Permite zipar as pastas e arquivos de uma branch
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
