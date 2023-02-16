@@ -59,6 +59,10 @@ USE MERGE
 
 > Continua o merge após resolver um conflito
 
+**git config --global help.autocorrect 1**
+
+> Ajuda a corrigir pequenas falhas de digitação de algum comando
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
