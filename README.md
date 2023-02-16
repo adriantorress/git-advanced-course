@@ -67,6 +67,13 @@ USE MERGE
 
 > Permite zipar as pastas e arquivos de uma branch
 
+**git log --pretty=oneline --graph -all**
+
+> Customiza a visualização do log: 
+>--pretty=online, mostra cada commit por linha. 
+>--graph, mostra de forma gráfica uma linha do tempo com o histórico de commits. 
+>--all, mostra todas as branchs no log e não só a atual.
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
