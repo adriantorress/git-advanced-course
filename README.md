@@ -78,6 +78,10 @@ USE MERGE
 
 > Mostra todos os commits desde certa data
 
+**git log --until='Month dd yyyy'**
+
+> Mostra todos os commits até certa data. Pode ser usado junto com o since
+
 
 ## Git tips
 
