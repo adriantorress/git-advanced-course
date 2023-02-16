@@ -94,6 +94,10 @@ USE MERGE
 
 > Mostra a quantidade de commits desejada a partir do ultimo.
 
+**git reflog**
+
+> Mostra os logs de uma forma mais completa, pois diferente do git log que mostra apenas os commits, o git reflog trabalha em cima das referências, ou seja, vai mostrar todo tipo de alteração feita em cada branch, conseguindo pegar até mesmo mudanças anteriores ao reset --hard
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
