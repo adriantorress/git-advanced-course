@@ -55,6 +55,10 @@ USE MERGE
 
 > Junta todos os commits que estão fixup, com o autosquash, com o commit subsequente a chave passada
 
+**git merge --continue**
+
+> Continua o merge após resolver um conflito
+
 ## Git tips
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
