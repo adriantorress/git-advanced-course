@@ -103,3 +103,8 @@ USE MERGE
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
 
 > Ou seja: git revert serve para o master e o git reset é bom para outras branches
+
+## GitHub learning / tips / good habits 
+
+> No github não existem somente pessoas enquanto usuários, mas também organizações. Essas organizações possuem repositórios e também possui pessoas.
+
