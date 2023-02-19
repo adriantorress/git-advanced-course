@@ -119,3 +119,5 @@ USE MERGE
 > PULL REQUESTS: submissão de um código para melhoria de algum detalhe.
 
 > Projects: da para separar bem o desenvolvimento do projeto em To Do, In Progress, e Done, um workflow. Da para organizar o repositório com cards.
+
+> WIKI: um overview/mapeamento do projeto, da para colocar uma documentação melhorada, planos para o futuro...
