@@ -109,3 +109,5 @@ USE MERGE
 > No github não existem somente pessoas enquanto usuários, mas também organizações. Essas organizações possuem repositórios e também possui pessoas. 
 
 > Na aba de NOTIFICAÇÕES da para habilitar as preferências.
+
+> O STAR é uma forma de apoiar o projeto / dizer que gostou, curtiu...
