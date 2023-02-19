@@ -106,5 +106,6 @@ USE MERGE
 
 ## GitHub learning / tips / good habits 
 
-> No github não existem somente pessoas enquanto usuários, mas também organizações. Essas organizações possuem repositórios e também possui pessoas.
+> No github não existem somente pessoas enquanto usuários, mas também organizações. Essas organizações possuem repositórios e também possui pessoas. 
 
+> Na aba de NOTIFICAÇÕES da para habilitar as preferências.
