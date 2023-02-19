@@ -111,3 +111,5 @@ USE MERGE
 > Na aba de NOTIFICAÇÕES da para habilitar as preferências.
 
 > O STAR é uma forma de apoiar o projeto / dizer que gostou, curtiu...
+
+> O FORK faz uma cópia do estado atual de um projeto para o seu portfólio, não sofrendo com possíveis modificações no projeto original. O FORK também é útil para fazer contribuições para um projeto, você pode copiá-lo para seu repositório, fazer alterações e submetê-las para o proprietário.
