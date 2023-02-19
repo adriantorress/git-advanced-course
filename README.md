@@ -123,3 +123,5 @@ USE MERGE
 > WIKI: um mapeamento do projeto, da para colocar uma documentação melhorada, planos para o futuro...
 
 > INSIGHTS: um overview do projeto -> Merged / Proposed Pull Requests, Closed / New Issues e mais detalhes do projeto
+
+> SETTINGS: Configurações necessárias do repositório
