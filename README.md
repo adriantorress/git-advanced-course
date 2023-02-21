@@ -168,6 +168,8 @@ USE MERGE
 
 > Da para criar mini-tabelas com screenshots do antes e depois.
 
+> Assim como as issues também da para criar um template personalizado do PR, seguindo os mesmos passos: ir na pasta .github, adicionar um arquivo e nomeando-o de pull_request_template.md e fazer o template da sua maneira. Há também um repositório da devspace que contém muitos templates pré-montados - chamado awesome-github-templates.
+
 ### PROJECTS
 
 > PROJECTS: da para separar bem o desenvolvimento do projeto em To Do, In Progress, e Done, um workflow. Da para organizar o repositório com cards.
