@@ -106,67 +106,23 @@ USE MERGE
 
 ## GitHub learning / tips / good habits 
 
-### USUÁRIOS
-
 > No github não existem somente pessoas enquanto usuários, mas também organizações. Essas organizações possuem repositórios e também possui pessoas. 
-
-### NOTIFICAÇÕES
 
 > Na aba de NOTIFICAÇÕES da para habilitar as preferências.
 
-### STAR
-
 > O STAR é uma forma de apoiar o projeto / dizer que gostou, curtiu...
-
-### FORK
 
 > O FORK faz uma cópia do estado atual de um projeto para o seu portfólio, não sofrendo com possíveis modificações no projeto original. O FORK também é útil para fazer contribuições para um projeto, você pode copiá-lo para seu repositório, fazer alterações e submetê-las para o proprietário.
 
-### ISSUES
-
-> As ISSUES servem basicamente para relatar algum problema / alguma melhoria que possa ser feita. 
-
-> Foram criadas para criar discussões sobre o projeto. 
-
-> Toda issue possui um ID.
-
-> A issue pode estar aberta (ainda não foi concluída) ou fechada (já concluída). 
-
-> Ao criar a issue, você pode determinar uma pessoa para resolver aquela tarefa através da aba assignes dentro da issue. 
-
-> Da para criar labels para categorizar a issue.
-
-> É possível determinar de qual projeto é aquela issue.
-
-> Da para agrupar issues pelo Milestone - determinando assim o estado atual do projeto, se é uma versão beta ou alfa, se já está pronto, etc.
-
-> Da para ativar as notificações de atualizações de determinada issue e também ver os participantes dela. 
-
-> Muitas empresas costumam trabalhar com issues para definir o workflow do projeto, coisas que precisam ser melhoradas/modificadas através dessas issues. 
-
-> É possível criar issues a partir de trechos do código, customizar a issue (adicionando check-boxs e outros tipos de customização) e também da para inserir screenshots do task de determinada issue.
-
-> É possível também criar um template para as issues, basta criar uma pasta ".github", adicionar o arquivo issue_template.md e descrever como você deseja que seja criada as issues pro seu projeto. E quando você ou algum contribuidor do projeto for criar uma nova issue, aparecerá o formato que você definiu para que baseiem-se nele.
-
-> É possível referenciar issues umas nas outras (colocando um comentário na issue que irá referenciar com um # + o numero da issue a ser referenciada).
-
-### PULL REQUESTS
+> As ISSUES servem basicamente para relatar algum problema / alguma melhoria que possa ser feita. Foram criadas para criar discussões sobre o projeto. Toda issue possui um ID. A issue pode estar aberta (ainda não foi concluída) ou fechada (já concluída). Ao criar a issue, você pode determinar uma pessoa para resolver aquela tarefa através da aba assignes dentro da issue. Da para criar labels para categorizar a issue, determinar de qual projeto é aquela issue, e também da para agrupar issues pelo Milestone - determinando assim o estado atual do projeto, se é uma versão beta ou alfa, se já está pronto, etc... Da para ativar as notificações de atualizações de determinada issue e também ver os participantes dela. Muitas empresas costumam trabalhar com issues para definir o workflow do projeto, coisas que precisam ser melhoradas/modificadas através dessas issues. É possível criar issues a partir de trechos do código, customizar a issue (adicionando check-boxs e outros tipos de customização) e também da para inserir screenshots do task de determinada issue;
+> É possível também criar um template para as issues, basta criar uma pasta ".github", adicionar o arquivo issue_template.md e descrever como você deseja que seja criada as issues pro seu projeto. E quando você ou algum contribuidor do projeto for criar uma nova issue, aparecerá o formato que você definiu para que baseiem-se nele
 
 > PULL REQUESTS: submissão de um código para melhoria de algum detalhe.
 
-
-### PROJECTS
-
 > PROJECTS: da para separar bem o desenvolvimento do projeto em To Do, In Progress, e Done, um workflow. Da para organizar o repositório com cards.
-
-### WIKI
 
 > WIKI: um mapeamento do projeto, da para colocar uma documentação melhorada, planos para o futuro...
 
-### INSIGHTS
-
 > INSIGHTS: um overview do projeto -> Merged / Proposed Pull Requests, Closed / New Issues e mais detalhes do projeto
-
-### SETTINGS
 
 > SETTINGS: Configurações necessárias do repositório
