@@ -150,6 +150,8 @@ USE MERGE
 
 > É possível referenciar issues umas nas outras (colocando um comentário na issue que irá referenciar com um # + o numero da issue a ser referenciada).
 
+> As issues podem ser fechadas e reabertas nelas mesmo, mas também podem ser fechadas através das mensagens do commit, passando o comando - Closes #numero_da_issue na mensagem a issue será fechada no repositório.
+
 ### PULL REQUESTS
 
 > PULL REQUESTS: submissão de um código para melhoria de algum detalhe.
