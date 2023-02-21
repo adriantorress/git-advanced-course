@@ -162,6 +162,11 @@ USE MERGE
 
 > Ou seja, manda-se o código e faz o pedido para ver se ele é aceito ou não e se esse é mergeado ou não no branch desejado.
 
+> Ao subir a branch para o repositório, vai aparecer a sugestão de Pull Request.
+
+> O Pull Request (PR) pode ser customizado assim como as Issues - colocando labels e todas as outras opções.
+
+> Da para criar mini-tabelas com screenshots do antes e depois.
 
 ### PROJECTS
 
