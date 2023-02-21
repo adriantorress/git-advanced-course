@@ -156,6 +156,12 @@ USE MERGE
 
 > PULL REQUESTS: submissão de um código para melhoria de algum detalhe.
 
+> Branch ou commit separado onde pretende-se liga-lo ao branch principal.
+
+> Pedir para a correção ou mudança seja aceita no branch principal, que geralmente, mas não necessariamente, é o master.
+
+> Ou seja, manda-se o código e faz o pedido para ver se ele é aceito ou não e se esse é mergeado ou não no branch desejado.
+
 
 ### PROJECTS
 
