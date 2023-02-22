@@ -217,4 +217,5 @@ USE MERGE
 > Uma vez feita as correções e recebendo o approval é só fazer o merge para o master
 
 > Há 3 tipos de merge que podem ser feitos no PR, apenas o merge com todos os commits feitos no PR, um squash e merge, que vai juntar todos os commits em um só e fazer o merge, e o rebase e merge, que vai colocar os commits para o topo do histórico e fazer o merge.
- 
+
+> Após finalizar o merge, é bom deletar o branch que foi feito o merge, no caso desse projeto, o branch reorder-sections. Como ele não vai será mais utilizado, é bom deletar para manter o git e o github organizado.
