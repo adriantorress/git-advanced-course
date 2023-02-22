@@ -185,3 +185,19 @@ USE MERGE
 ### SETTINGS
 
 > SETTINGS: Configurações necessárias do repositório
+
+#### REGRAS PARA PROTEÇÃO DE BRANCHES
+
+> É possível em settings proteger a branch principal do projeto, basta ir em branches, em "Branch protection rules" clicar em "Add rule" e em "Branch name pattern" digitar "main" (ou o nome da sua branch principal). Basta selecionar as opções de proteção que deseja habilitar, por exemplo: você pode exigir que todos os pushs para a branch principal passem em verificações de status antes de serem mesclados. No final é só salvar.
+
+> Nesse projeto foi aplicado essas regras para a branch master:
+
+> "Require a pull request before merging" (Requerer um pull request antes do merge): Todos os commits devem ser feitos em um branch não protegida e submetidos via pull request antes que possam ser mesclados na branch principal.
+
+> "Require approvals" (Requerer aprovações): Os pull requests requerem um número de aprovações e não podem ter solicitações de alteração antes de serem mesclados.
+
+> "Dismiss stale pull request approvals when new commits are pushed" (Rejeitar aprovações de pull request obsoletas quando novos commits são feitos): Novos commits revisáveis descartarão as aprovações de pull request.
+
+> "Require status checks to pass before merging" (Requerer que os checks de status sejam aprovados antes do merge): Escolha quais checks de status devem ser aprovados antes que os branches possam ser mesclados na branch principal. Os commits devem primeiro ser enviados a outro branch e, em seguida, mesclados ou enviados diretamente para o branch principal após a aprovação dos checks de status.
+
+> "Require branches to be up to date before merging" (Requerer que os branches estejam atualizados antes do merge): Os branches devem estar atualizados com o branch principal antes do merge.
