@@ -201,3 +201,17 @@ USE MERGE
 > "Require status checks to pass before merging" (Requerer que os checks de status sejam aprovados antes do merge): Escolha quais checks de status devem ser aprovados antes que os branches possam ser mesclados na branch principal. Os commits devem primeiro ser enviados a outro branch e, em seguida, mesclados ou enviados diretamente para o branch principal após a aprovação dos checks de status.
 
 > "Require branches to be up to date before merging" (Requerer que os branches estejam atualizados antes do merge): Os branches devem estar atualizados com o branch principal antes do merge.
+
+### PROCESSO ATÉ O CODE REVIEW
+
+> Cria-se um branch separado
+
+> Faz as devidas mudanças
+
+> Manda isso como Pull Request
+
+> Recebe os comentários
+
+> Trabalha-se em cima desses comentários e faz as correções
+
+> Uma vez feita as correções e recebendo o approval é só fazer o merge para o master
