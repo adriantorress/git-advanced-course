@@ -219,3 +219,21 @@ USE MERGE
 > Há 3 tipos de merge que podem ser feitos no PR, apenas o merge com todos os commits feitos no PR, um squash e merge, que vai juntar todos os commits em um só e fazer o merge, e o rebase e merge, que vai colocar os commits para o topo do histórico e fazer o merge.
 
 > Após finalizar o merge, é bom deletar o branch que foi feito o merge, no caso desse projeto, o branch reorder-sections. Como ele não vai será mais utilizado, é bom deletar para manter o git e o github organizado.
+
+## Workflow learning
+
+> Fluxo de trabalho
+
+> Sequência de passos necessários para automatizar processos, de acordo com um conjunto de regras definidas, permitindo que possam ser transmitidos de uma pessoa para outra
+
+> Passo a passo das tarefas dentro do git ou qualquer outra coisa
+
+> No git: Desde o momento de salvar o arquivo, criar um commit, enviar esse commit pro github, pedir um pull request, fazer o code review e até fazer o merge para o master para ter essas mudanças na aplicação. Pequenos passos feitos desde o desenvolvimento até o envio para a produção 
+
+### Workflows do Git
+
+> Centralized Workflow
+
+> Feature Branch Workflow
+
+> Gitflow Workflow
