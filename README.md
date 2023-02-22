@@ -202,7 +202,7 @@ USE MERGE
 
 > "Require branches to be up to date before merging" (Requerer que os branches estejam atualizados antes do merge): Os branches devem estar atualizados com o branch principal antes do merge.
 
-### PROCESSO ATÉ O CODE REVIEW
+### PROCESSO ATÉ E APÓS O CODE REVIEW
 
 > Cria-se um branch separado
 
