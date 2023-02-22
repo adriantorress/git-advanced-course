@@ -232,7 +232,15 @@ USE MERGE
 
 ### Workflows do Git
 
-> Centralized Workflow
+#### Centralized Workflow
+
+> Centralized Workflow: Branch único (Master); 
+
+> Fácil para transição de quem vem do SVN;
+
+> Funciona melhor com equipes bem pequenas - de 3 a 4 pessoas;
+
+> Exemplo do workflow: pessoa 1 desenvolve uma feature e sobe para o master; pessoa 2 também desenvolveu uma feature e tentou subir para o master, vai dar conflito pois o repositório local dela não está atualizado com o repositório remoto, a pessoa 2 terá que fazer um pull rebase para trazer as mudanças que estão no repositório remoto e colocar as suas mudanças locais acima das mudanças trazidas no histórico, assim ela conseguirá subir sua feature para o github com o push.
 
 > Feature Branch Workflow
 
