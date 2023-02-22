@@ -1,6 +1,6 @@
-# Photo portfolio
+# PHOTO PORTFOLIO
 
-> A simple project to learn advanced git
+> A simple project to learn day by day git
 
 Big Picture by HTML5 UP
 
@@ -8,7 +8,7 @@ html5up.net | @ajlkn
 
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-## Boas Práticas - Merge / Rebase
+## GOOD HABITS - MERGE / REBASE
 
 > Está atualizando sua branch pegando as coisas do master?
 
@@ -18,7 +18,7 @@ USE REBASE (PULL --REBASE)
 
 USE MERGE
 
-## VSCode tips
+## VSCODE TIPS
 
 > Ctrl + Shift + P (Algumas coisas para o git no vscode: git history log, remote, branch... com isso, e mais o Controle do Código-Fonte (Ctrl + Shift + G), da pra utilizar o git diretamente no vscode, fora da linha de comando)
 
@@ -26,7 +26,7 @@ USE MERGE
 
 
 
-## Git commands
+## GIT COMMANDS
 **git branch --set-upstream-to=origin/<branch> <branch-atual>**
 
 > Seta uma branch para a qual sua branch atual vai ficar trackeando mudanças, como se fosse a branch do qual ela foi originada
@@ -98,13 +98,13 @@ USE MERGE
 
 > Mostra os logs de uma forma mais completa, pois diferente do git log que mostra apenas os commits, o git reflog trabalha em cima das referências, ou seja, vai mostrar todo tipo de alteração feita em cada branch, conseguindo pegar até mesmo mudanças anteriores ao reset --hard
 
-## Git tips
+## GIT TIPS
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
 
 > Ou seja: git revert serve para o master e o git reset é bom para outras branches
 
-## GitHub learning / tips / good habits 
+## GITHUB LEARNING
 
 ### USUÁRIOS
 
@@ -186,7 +186,7 @@ USE MERGE
 
 > SETTINGS: Configurações necessárias do repositório
 
-#### REGRAS PARA PROTEÇÃO DE BRANCHES
+#### BRANCH PROTECTION RULES
 
 > É possível em settings proteger a branch principal do projeto, basta ir em branches, em "Branch protection rules" clicar em "Add rule" e em "Branch name pattern" digitar "main" (ou o nome da sua branch principal). Basta selecionar as opções de proteção que deseja habilitar, por exemplo: você pode exigir que todos os pushs para a branch principal passem em verificações de status antes de serem mesclados. No final é só salvar.
 
@@ -202,7 +202,7 @@ USE MERGE
 
 > "Require branches to be up to date before merging" (Requerer que os branches estejam atualizados antes do merge): Os branches devem estar atualizados com o branch principal antes do merge.
 
-### PROCESSO ATÉ E APÓS O CODE REVIEW
+### PROCESS UNTIL AND AFTER CODE REVIEW
 
 > Cria-se um branch separado
 
@@ -220,7 +220,7 @@ USE MERGE
 
 > Após finalizar o merge, é bom deletar o branch que foi feito o merge, no caso desse projeto, o branch reorder-sections. Como ele não vai será mais utilizado, é bom deletar para manter o git e o github organizado.
 
-## Workflow learning
+## WORKFLOW LEARNING
 
 > Fluxo de trabalho
 
@@ -230,9 +230,9 @@ USE MERGE
 
 > No git: Desde o momento de salvar o arquivo, criar um commit, enviar esse commit pro github, pedir um pull request, fazer o code review e até fazer o merge para o master para ter essas mudanças na aplicação. Pequenos passos feitos desde o desenvolvimento até o envio para a produção 
 
-### Workflows do Git
+### GIT WORKFLOWS
 
-#### Centralized Workflow
+#### CENTRALIZED WORKFLOW
 
 > Centralized Workflow: Branch único (Master); 
 
@@ -242,6 +242,9 @@ USE MERGE
 
 > Exemplo do workflow: pessoa 1 desenvolve uma feature e sobe para o master; pessoa 2 também desenvolveu uma feature e tentou subir para o master, vai dar conflito pois o repositório local dela não está atualizado com o repositório remoto, a pessoa 2 terá que fazer um pull rebase para trazer as mudanças que estão no repositório remoto e colocar as suas mudanças locais acima das mudanças trazidas no histórico, assim ela conseguirá subir sua feature para o github com o push.
 
+#### FEATURE BRANCH WORKFLOW
+
 > Feature Branch Workflow
 
+#### GITFLOW WORKFLOW
 > Gitflow Workflow
