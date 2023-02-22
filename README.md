@@ -244,7 +244,24 @@ USE MERGE
 
 #### FEATURE BRANCH WORKFLOW
 
-> Feature Branch Workflow
+> Feature Branch Workflow: um dos mais famosos que existem;
+
+> Amplamente utilizado;
+
+> Muito simples de trabalhar;
+
+> Um branch para cada feature: toda vez que for criar uma nova feature, cria-se um novo branch separado baseado no master, trabalha-se na feature desejado e quando finaliza-la faz-se um pull request para o master, passa pelo code review e se estiver tudo certo faz-se o merge;
+
+> Evita muitos conflitos e permite trabalhos em paralelo: funciona com várias pessoas trabalhando no repositório, e como as pessoas vão estar trabalhando nos seus próprios branches, a única preocupação a se ter é manter seu branch atualizado com o master;
+
+> Funciona bem com equipes maiores;
+
+> Cada vez que uma feature entra no master é bem identificável pois sempre será um merge de um branch de feature, facilitando a visualização do histórico.
+
+> Ao final sempre fazer o squash dos commits que não são importantes.
+
+> Foi utilizado nesse projeto :);
+
 
 #### GITFLOW WORKFLOW
 > Gitflow Workflow
