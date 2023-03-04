@@ -274,6 +274,8 @@ USE MERGE
 
 > Para aprender mais sobre o gitflow, instalação e fluxo: http://danielkummer.github.io/git-flow-cheatsheet/
 
+> Sobre o fluxo do gitflow: Vai se criar uma branch develop, na branch master vai se startar o git flow com o init e definir as funções das branches. Ao criar uma nova feature e publicar ela no github, voce faz o pull request com a base na branch develop e finaliza a feature pelo terminal, a feature será mergeada na branch develop e será excluída local e remotamente. 
+
 #### GITFLOW COMMANDS
 
 **git flow init** 
