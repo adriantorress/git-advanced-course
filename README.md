@@ -284,6 +284,11 @@ USE MERGE
 
 > Comando para iniciar uma nova feature
 
+**git flow feature publish <branch name>**
+
+> Comando para publicar uma nova feature no github 
+
 **git flow feature finish <branch name>**
 
 > Comando para finalizar uma feature
+
