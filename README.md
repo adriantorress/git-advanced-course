@@ -98,6 +98,9 @@ USE MERGE
 
 > Mostra os logs de uma forma mais completa, pois diferente do git log que mostra apenas os commits, o git reflog trabalha em cima das referências, ou seja, vai mostrar todo tipo de alteração feita em cada branch, conseguindo pegar até mesmo mudanças anteriores ao reset --hard
 
+**git push origin --delete <branch>**
+> Comando para deletar uma branch remota 
+
 ## GIT TIPS
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
@@ -220,6 +223,8 @@ USE MERGE
 
 > Após finalizar o merge, é bom deletar o branch que foi feito o merge, no caso desse projeto, o branch reorder-sections. Como ele não vai será mais utilizado, é bom deletar para manter o git e o github organizado.
 
+
+
 ## WORKFLOW LEARNING
 
 > Fluxo de trabalho
@@ -264,7 +269,28 @@ USE MERGE
 
 
 #### GITFLOW WORKFLOW
+
 > Gitflow Workflow: Conjunto de extensões para o git que provê operações de alto-nível para repositórios usando o modelo de branches do Vincent Driessen.
 
 > Para aprender mais sobre o gitflow, instalação e fluxo: http://danielkummer.github.io/git-flow-cheatsheet/
+
+> Sobre o fluxo do gitflow: Vai se criar uma branch develop, na branch master vai se startar o git flow com o init e definir as funções das branches. Ao criar uma nova feature e publicar ela no github, voce faz o pull request com a base na branch develop e finaliza a feature pelo terminal, a feature será mergeada na branch develop e será excluída local e remotamente. 
+
+#### GITFLOW COMMANDS
+
+**git flow init** 
+
+> Comando para iniciar o git flow
+
+**git flow feature start <branch name>**
+
+> Comando para iniciar uma nova feature
+
+**git flow feature publish <branch name>**
+
+> Comando para publicar uma nova feature no github 
+
+**git flow feature finish <branch name>**
+
+> Comando para finalizar uma feature
 
