@@ -98,6 +98,9 @@ USE MERGE
 
 > Mostra os logs de uma forma mais completa, pois diferente do git log que mostra apenas os commits, o git reflog trabalha em cima das referências, ou seja, vai mostrar todo tipo de alteração feita em cada branch, conseguindo pegar até mesmo mudanças anteriores ao reset --hard
 
+**git push origin --delete <branch>**
+> Comando para deletar uma branch remota 
+
 ## GIT TIPS
 
 > Nunca altere o histórico no master, caso haja algum erro em algum dado commit, use o revert - que gera um novo commit com a reversão do commit desejado, mas não mexe no histórico
@@ -219,6 +222,8 @@ USE MERGE
 > Há 3 tipos de merge que podem ser feitos no PR, apenas o merge com todos os commits feitos no PR, um squash e merge, que vai juntar todos os commits em um só e fazer o merge, e o rebase e merge, que vai colocar os commits para o topo do histórico e fazer o merge.
 
 > Após finalizar o merge, é bom deletar o branch que foi feito o merge, no caso desse projeto, o branch reorder-sections. Como ele não vai será mais utilizado, é bom deletar para manter o git e o github organizado.
+
+
 
 ## WORKFLOW LEARNING
 
