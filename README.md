@@ -264,4 +264,7 @@ USE MERGE
 
 
 #### GITFLOW WORKFLOW
-> Gitflow Workflow
+> Gitflow Workflow: Conjunto de extensões para o git que provê operações de alto-nível para repositórios usando o modelo de branches do Vincent Driessen.
+
+> Para aprender mais sobre o gitflow, instalação e fluxo: http://danielkummer.github.io/git-flow-cheatsheet/
+
