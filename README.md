@@ -280,3 +280,7 @@ USE MERGE
 
 > Comando para iniciar o git flow
 
+**git flow feature start <branch>**
+
+> Comando para iniciar uma nova feature
+
