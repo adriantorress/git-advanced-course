@@ -276,6 +276,8 @@ USE MERGE
 
 > Sobre o fluxo do gitflow: Vai se criar uma branch develop, na branch master vai se startar o git flow com o init e definir as funções das branches. Ao criar uma nova feature e publicar ela no github, voce faz o pull request com a base na branch develop e finaliza a feature pelo terminal, a feature será mergeada na branch develop e será excluída local e remotamente. 
 
+> Você pode criar uma nova release para jogar o código de develop para a branch master: Cria e finaliza a release, escreve uma mensagem para a tag da release, o git fará um merge da release na branch master e develop e apaga o branch da release, e logo após você deve subir a tag para o repositório remoto através da branch master
+
 #### GITFLOW COMMANDS
 
 **git flow init** 
@@ -293,4 +295,15 @@ USE MERGE
 **git flow feature finish <branch name>**
 
 > Comando para finalizar uma feature
+
+**git flow release start <release name>**
+
+> Cria uma nova release
+
+**git flow release finish <release name>**
+
+> Finaliza uma release
+
+
+
 
