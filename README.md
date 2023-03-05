@@ -311,7 +311,7 @@ USE MERGE
 
 > Inicia um novo hotfix
 
-**git flow hotfix finish fix-anchor**
+**git flow hotfix finish <hotfix name>**
 
 > Finaliza um hotfix
 
