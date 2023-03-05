@@ -286,32 +286,32 @@ USE MERGE
 
 > Comando para iniciar o git flow
 
-**git flow feature start <branch name>**
+**git flow feature start (branch-name)**
 
 > Comando para iniciar uma nova feature
 
-**git flow feature publish <branch name>**
+**git flow feature publish (branch-name)**
 
 > Comando para publicar uma nova feature no github 
 
-**git flow feature finish <branch name>**
+**git flow feature finish (branch-name)**
 
 > Comando para finalizar uma feature
 
-**git flow release start <release name>**
+**git flow release start (release-name)**
 
 > Cria uma nova release
 
-**git flow release finish <release name>**
+**git flow release finish (release-name)**
 
 > Finaliza uma release
 
 
-**git flow hotfix start <hotfix name>**
+**git flow hotfix start (hotfix-name)**
 
 > Inicia um novo hotfix
 
-**git flow hotfix finish <hotfix name>**
+**git flow hotfix finish (hotfix-name)**
 
 > Finaliza um hotfix
 
